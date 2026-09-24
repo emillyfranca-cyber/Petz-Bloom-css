@@ -4,3 +4,182 @@
     box-sizing: border-box;
 }
 
+/*Seletor de tag*/
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(129, 21, 75);
+    line-height: 2.6;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgb(219, 11, 143);
+    font-weight: 700;
+}
+
+.navegacao {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navegacao a {
+    color: #a1004b;
+    text-decoration: none;
+}
+
+/* Cabeçalho*/
+header {
+    background-color: rgb(255, 102, 0);
+    color: rgb(146, 9, 78);
+    padding: 32px 16px;
+    text-align: center;
+    font-family: 'Franklin Gothic 
+}
+
+ header h1 {
+    color: #fffeff;
+}
+
+/*Corpo geral*/
+.cuidado-pet {
+    background-color: rgb(255, 0, 123);
+    color: #fffeff;
+    max-width: 450px;
+    margin-top: 100px;
+    padding: 2px 40px;
+    border-radius: 25px;
+}
+
+.amigo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.texto-produtos {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.texto-prin {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.racoes {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.higiene {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.acessorios {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.seupet {
+    background-color: #ff0178;
+    color: #ffffff;
+    max-width: 15000px;
+    padding: 2px 40px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0px;
+    padding: 40px;
+}
+
+footer {
+    background-color: rgb(255, 112, 23);
+    color: rgb(244, 241, 243);
+    text-align: center;
+    padding: 24px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+/* Tabelas */
+table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: rgb(255, 220, 243);
+    border-radius: 12px;
+}
+
+/*Links*/
+
+.pdf {
+    background-color: #a1004b;
+    color: #ffffff;
+    max-width: 350px;
+    padding: 2px 40px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.site {
+    background-color: #a1004b;
+    color: #ffffff;
+    max-width: 350px;
+    padding: 2px 40px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/*Seletor classes e ID*/
+.card {
+    background-color: #c6f5d7;
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 800px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.foto {
+    background-color: rgb(255, 0, 106);
+    background-size: cover;
+    background-position: center;
+    height: 160px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+#foto-banho {
+    background-image: url(Foto\ banho.png);
+}
+
+#foto-veterinario {
+    background-image: url(ChatGPT\ Image\ 24\ de\ set.\ de\ 2026\,\ 16_05_59.png);
+}
+
+#foto-especial {
+    background-image: url(Foto\ acessorios.png);
+}

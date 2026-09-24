@@ -10,39 +10,52 @@
 <body>
     <header>
         <h1>PetzBloom - Pet Shop</h1>
-        <nav>
+        <nav class="navegacao">
             <a href="index.html">Início</a> |
             <a href="catalogo.html"> Ver Catálogo</a> |
-            <a href="agendamento.html">Agendamento</a> |
-            <a href="sobrenos.html">Sobre nós</a> |
+            <a href="agendamento.html" class="agendamento">Agendamento</a>
         </nav>
     </header>
 
-    <br> <br>
-
-    <img src="imagemlogo.png" alt="Logo PetzBloom" height="300">
-
     <main>
-        <h2>Seu pet merece todo o cuidado do mundo.</h2>
-        <h3>Produtos, cuidados e serviços para deixar seu melhor amigo feliz e saudável.</h3>
-        <p>
+        <h2 class="seupet">Seu pet merece todo o cuidado do mundo. Produtos, cuidados e serviços para deixar seu melhor amigo feliz e saudável.</h2>
+        <p class="texto-prin">
             Na <strong>PetzBloom</strong>, cuidamos do seu melhor amigo com carinho, dedicação e muito amor. Encontre produtos, serviços e cuidados especiais para deixar seu pet sempre feliz e bem cuidado.
 
-            <br><br>
+            <br>
 
             <i>Cuide, ame e aproveite cada momento ao lado do seu melhor amigo!</i>
         </p>
     </main>
 
+    <section id="servicos">
+            <h2>Serviços</h2>
+            <article class="card">
+                <div class="foto" id="foto-banho"></div>
+                <h3 class="banho-tosa">Banho e Tosa</h3>
+                <p>Cuidados especiais para deixar seu pet limpo, confortável e bem cuidado, com banho, secagem e tosa de acordo com suas necessidades.</p>
+            </article>
+            <article class="card">
+                <div class="foto" id="foto-veterinario"></div>
+                <h3 class="veterinario">Atendimento Veterinário</h3>
+                <p>Atendimento especializado para acompanhar a saúde do seu pet, realizar avaliações e oferecer os cuidados necessários para seu bem-estar.</p>
+            </article>
+            <article class="card">
+                <div class="foto" id="foto-especial"></div>
+                <h3 class="especial">Estética e Tratamentos Especiais</h3>
+                <p>Cuidados especiais para manter o pelo do seu pet saudável, macio e bonito, incluindo hidratação, reconstrução, nutrição e outros tratamentos personalizados.</p>
+            </article>
+        </section>
+
     <aside id="horario">
-        <h2>Horário de atendimento</h2>
-        <p>Segunda à sábado: 8h30 às 18h30<br>Agendamentos pelo WhatsApp.
-        <br> <strong>Localização:</strong> Rua das Flores, 125 — Jardim Primavera, Votuporanga - SP <br> <strong>CEP: </strong>15500-000</p>
+        <h2 class="hora">Horário de atendimento</h2>
+        <p class="info">Segunda à sábado: 8h30 às 18h30<br>Agendamentos pelo WhatsApp.
+        <br>Localização:Rua das Flores, 125 — Jardim Primavera, Votuporanga - SP <br> CEP: 15500-000</p>
     </aside>
 
     <footer id="contato">
         <p><strong>Contato:</strong> (16) 999666-2277 | petshop@petzbloom.com.br</p>
-        <p>&copy; 2026 Petz Bloom</p>
+        <p>&copy; 2026 PetzBloom</p>
     </footer>
     
 </body>
