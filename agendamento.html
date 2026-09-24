@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetzBloom - Agendamento</title>
+</head>
+<body>
+    <header>
+        <h1>PetzBloom - Pet Shop</h1>
+        <nav>
+            <a href="index.html">Início</a> |
+            <a href="catalogo.html"> Ver Catálogo</a> |
+            <a href="agendamento.html">Agendamento</a> |
+            <a href="sobrenos.html">Sobre nós</a> |
+        </nav>
+
+        <br> <br>
+        <img src="imagemlogo.png" alt="Logo  Catálogo-PetzBloom" height="300">
+
+        <h2>Agende um cuidado para seu pet!</h2>
+        <h3>Preencha os campos abaixo:</h3>
+    </header>
+
+    <form>
+    <label for="nome">Nome do responsável:</label>
+    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+    <br> <br>
+    <label for="pet">Nome do pet:</label>
+    <input type="text" name="pet" id="pet"  placeholder="Digite o nome do pet" required>
+    <br> <br>
+    <label for="telefone" >Telefone:</label>
+    <input name="telefone" id="telefone" placeholder="(17) 99999-9999" required>
+    <br> <br>
+    <label for="tipo" >Tipo de pet:</label>
+    <select name="tipo" id="tipo" required>
+        <option value="">Selecione</option>
+        <option value="cachorro">Cachorro</option>
+        <option value="gato">Gato</option>
+    </select>
+    <br> <br>
+    <label for="servico">Serviço:</label>
+    <select name="servico" id="servico" required>
+        <option value="">Selecione um serviço</option>
+        <option value="banho">Banho</option>
+        <option value="banho-tosa">Banho + Tosa</option>
+        <option value="unhas">Corte de unhas</option>
+        <option value="hidratacao">Hidratação</option>
+    </select>
+    <br> <br>
+    <label for="data" >Data:</label>
+    <input type="date" name="data" id="data" required>
+    <br> <br>
+    <label for="horario" >Horário:</label>
+    <input type="time" id="horario" name="horario" required>
+    <br> <br>
+    <label for="observacoes" >Observações:</label>
+    <textarea placeholder="Alguma observação sobre seu pet?"  name="observacoes" id="observacoes"></textarea>
+    <br> <br>
+    <button type="submit">Confirmar Agendamento</button >
+</form>
+
+<br><br><br>
+
+    <aside id="programacao">
+        <h2>Horário de atendimento</h2>
+        <p>|Segunda à sábado: 8h30 às 18h30<br>|Agendamentos pelo WhatsApp.<br> <strong>Localização:</strong> Rua das Flores, 125 — Jardim Primavera, Votuporanga - SP <br> <strong>CEP: </strong>15500-000</p>
+    </aside>
+
+    <footer id="contato">
+        <p><strong> Contato: </strong> (16) 999666-2277 | petshop@petzbloom.com.br</p>
+        <p>&copy; 2026 Petz Bloom</p>
+    </footer>
+
+</body>
+</html>
